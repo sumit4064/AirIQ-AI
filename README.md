@@ -2,55 +2,54 @@
 
 > AI-powered Urban Air Quality Monitoring, Prediction, and Telemetry Dashboard.
 
-![AirIQ AI](https://img.shields.io/badge/AI-Air%20Quality-brightgreen)
-![React](https://img.shields.io/badge/Frontend-React-blue)
-![FastAPI](https://img.shields.io/badge/Backend-FastAPI-green)
-![Python](https://img.shields.io/badge/Python-3.11-yellow)
-![License](https://img.shields.io/badge/License-MIT-red)
+![React](https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react)
+![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi)
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python)
+![Vercel](https://img.shields.io/badge/Hosted%20on-Vercel-black?style=for-the-badge&logo=vercel)
+![Render](https://img.shields.io/badge/API-Render-46E3B7?style=for-the-badge&logo=render)
 
 ---
 
-## 📌 Overview
+# 🚀 Live Demo
 
-AirIQ AI is an intelligent air quality monitoring platform that combines AI, weather analytics, and geospatial visualization to provide real-time AQI insights.
+## 🌐 Live Application
 
-The platform enables users to:
-
-- 📍 Monitor live Air Quality Index
-- 🤖 Get AI-powered pollution analysis
-- 🌤️ View weather conditions
-- 🛰️ Analyze satellite-based environmental data
-- 💬 Interact with an AI assistant
-- 📈 Visualize pollution trends
-- 🗺️ Explore interactive AQI maps
+### 👉 https://air-iq-ai.vercel.app
 
 ---
 
-## 🚀 Live Demo
+## ⚙️ Backend API
 
-### Frontend
-https://air-iq-ai.vercel.app
+### 👉 https://airiq-ai.onrender.com
 
-### Backend API
-https://airiq-ai.onrender.com
+---
 
-### API Documentation
-https://airiq-ai.onrender.com/docs
+## 📖 API Documentation
+
+### 👉 https://airiq-ai.onrender.com/docs
+
+---
+
+# 📌 Overview
+
+AirIQ AI is an AI-powered Urban AQI & Telemetry Platform designed to monitor, analyze, and visualize air quality in real time.
+
+The platform combines environmental monitoring, weather intelligence, AI analytics, and interactive geospatial visualization to provide meaningful air quality insights.
 
 ---
 
 # ✨ Features
 
 - 🌍 Real-Time AQI Dashboard
-- 📊 Pollution Analytics
-- 🛰️ Satellite Data Integration
+- 📈 Pollution Analytics
 - 🌤️ Weather Monitoring
-- 🗺️ Interactive Maps
+- 🛰️ Satellite Data Integration
+- 🗺️ Interactive AQI Maps
 - 🤖 AI Chat Assistant (RAG)
-- 📈 AQI Trend Visualization
-- 📍 GPS Location Support
+- 📍 GPS-Based Monitoring
+- 📊 AQI Trend Charts
 - ⚡ FastAPI Backend
-- 🎨 Modern React UI
+- 🎨 Responsive React UI
 
 ---
 
@@ -62,7 +61,8 @@ https://airiq-ai.onrender.com/docs
 - Vite
 - Tailwind CSS
 - JavaScript
-- Leaflet Maps
+- React Leaflet
+- Recharts
 
 ## Backend
 
@@ -72,10 +72,10 @@ https://airiq-ai.onrender.com/docs
 
 ## AI & Data
 
+- XGBoost
 - Pandas
 - NumPy
 - Scikit-Learn
-- XGBoost
 
 ## Deployment
 
@@ -86,14 +86,8 @@ https://airiq-ai.onrender.com/docs
 
 # 📂 Project Structure
 
-```
+```text
 AirIQ-AI
-│
-├── frontend
-│   ├── src
-│   ├── public
-│   ├── package.json
-│   └── vercel.json
 │
 ├── backend
 │   ├── agents
@@ -101,6 +95,14 @@ AirIQ-AI
 │   ├── services
 │   ├── main.py
 │   └── requirements.txt
+│
+├── frontend
+│   ├── src
+│   ├── public
+│   ├── package.json
+│   └── vercel.json
+│
+├── docs
 │
 └── README.md
 ```
@@ -119,7 +121,7 @@ cd AirIQ-AI
 
 ---
 
-## Frontend
+## Frontend Setup
 
 ```bash
 cd frontend
@@ -131,7 +133,7 @@ npm run dev
 
 ---
 
-## Backend
+## Backend Setup
 
 ```bash
 cd backend
@@ -149,60 +151,66 @@ uvicorn main:app --reload
 
 Hosted on **Vercel**
 
-```
 https://air-iq-ai.vercel.app
-```
+
+---
 
 ## Backend
 
 Hosted on **Render**
 
-```
 https://airiq-ai.onrender.com
-```
+
+---
+
+## API Documentation
+
+https://airiq-ai.onrender.com/docs
 
 ---
 
 # 📸 Screenshots
 
-Add screenshots here.
+> Add screenshots of your application here.
 
 Example:
 
-```
-/screenshots/dashboard.png
+```text
+screenshots/dashboard.png
+screenshots/map.png
+screenshots/chatbot.png
 ```
 
 ---
 
 # 🔮 Future Enhancements
 
-- AI-based AQI Prediction
+- AI-based AQI Forecasting
 - Historical Data Analytics
 - Mobile Application
 - User Authentication
-- Notification System
 - IoT Sensor Integration
+- Smart City Dashboard
 
 ---
 
 # 👨‍💻 Author
 
-**Sumit Kumar**
+## Sumit Kumar
 
-GitHub:
+**GitHub**
+
 https://github.com/sumit4064
 
-LinkedIn:
+**LinkedIn**
+
 https://www.linkedin.com/in/sumit-kumar-535152360/
 
 ---
 
 # ⭐ Support
 
-If you like this project,
-
-⭐ Star this repository.
+If you found this project useful, consider giving it a ⭐ on GitHub.
 
 ---
 
