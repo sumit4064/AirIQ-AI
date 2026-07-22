@@ -14,14 +14,12 @@ import datetime
 import pandas as pd
 import io
 
-from backend.services.open_meteo_service import get_live_air_quality, ALL_INDIAN_STATES, search_location
-from backend.ml.predict import predictor
-from backend.ml.train_model import retrain_model_with_custom_data
-from backend.ml.traffic_model import traffic_predictor, retrain_traffic_model
-from backend.services.llm_service import chat_gpt_service
-from backend.agents.orchestrator import orchestrator
-from pydantic import BaseModel
-from typing import Optional
+from services.open_meteo_service import get_live_air_quality, ALL_INDIAN_STATES, search_location
+from ml.predict import predictor
+from ml.train_model import retrain_model_with_custom_data
+from ml.traffic_model import traffic_predictor, retrain_traffic_model
+from services.llm_service import chat_gpt_service
+from agents.orchestrator import orchestrator
 
 class ChatQueryRequest(BaseModel):
     message: str
@@ -172,4 +170,4 @@ def train_custom_aqi_model(file: UploadFile = File(...)):
         raise HTTPException(status_code=400, detail=f"Failed to process custom dataset: {str(e)}")
 
 if __name__ == "__main__":
-    uvicorn.run("backend.main:app", host="127.0.0.1", port=8000, reload=True)
+    uvicorn.run(app, host="127.0.0.1", port=8000, reload=True)
