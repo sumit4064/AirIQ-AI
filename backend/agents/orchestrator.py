@@ -1,8 +1,8 @@
-from backend.agents.attribution_agent import GeospatialAttributionAgent
-from backend.agents.forecast_agent import HyperlocalForecastAgent
-from backend.agents.enforcement_agent import EnforcementIntelligenceAgent
-from backend.agents.advisory_agent import ActionableAlertAgent
-from backend.services.open_meteo_service import ALL_INDIAN_STATES
+from agents.attribution_agent import GeospatialAttributionAgent
+from agents.forecast_agent import HyperlocalForecastAgent
+from agents.enforcement_agent import EnforcementIntelligenceAgent
+from agents.advisory_agent import ActionableAlertAgent
+from services.open_meteo_service import ALL_INDIAN_STATES
 
 class AgentOrchestrator:
     def __init__(self):

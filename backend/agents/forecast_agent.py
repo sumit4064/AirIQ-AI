@@ -1,4 +1,4 @@
-from backend.ml.predict import predictor
+from ml.predict import predictor
 
 class HyperlocalForecastAgent:
     """

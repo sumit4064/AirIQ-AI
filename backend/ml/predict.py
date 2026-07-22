@@ -2,7 +2,7 @@ import os
 import joblib
 import numpy as np
 import sys
-from backend.services.open_meteo_service import get_live_air_quality, calculate_indian_aqi, INDIAN_CITIES
+from services.open_meteo_service import get_live_air_quality, calculate_indian_aqi, INDIAN_CITIES
 
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')

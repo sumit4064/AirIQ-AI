@@ -5,7 +5,7 @@ import os
 import sys
 import datetime
 from xgboost import XGBClassifier, XGBRegressor
-from backend.services.open_meteo_service import get_live_air_quality
+from services.open_meteo_service import get_live_air_quality
 
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')

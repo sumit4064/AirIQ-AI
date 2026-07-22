@@ -1,8 +1,8 @@
 import re
 import datetime
-from backend.services.open_meteo_service import search_location, get_live_air_quality, ALL_INDIAN_STATES
-from backend.ml.traffic_model import traffic_predictor
-from backend.services.rag_service import retrieve_rag_context
+from services.open_meteo_service import search_location, get_live_air_quality, ALL_INDIAN_STATES
+from ml.traffic_model import traffic_predictor
+from services.rag_service import retrieve_rag_context
 
 class AirIQChatGPTService:
     def __init__(self):
